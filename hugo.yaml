@@ -58,10 +58,10 @@ params:
   readMore: false
   disableSummary: true
   # giscus support (all mandatory)
-  GiscusRepo: "elibroftw/blog.elijahlopez.ca"
-  GiscusRepoId: "R_kgDOGiL7hg"
+  GiscusRepo: "konrad-wila/blog"
+  GiscusRepoId: "R_kgDONGLiWQ"
   GiscusCategory: "General"
-  GiscusCategoryId: "DIC_kwDOGiL7hs4Cer6e"
+  GiscusCategoryId: "DIC_kwDONGLiWc4Cjt1x"
   GiscusLazyLoad: false # optional
 
   # webmentions:
