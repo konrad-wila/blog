@@ -1,6 +1,6 @@
 ---
 title: "How to get started with AWS Wickr"
-date: 2025-03-30T19:24:13-04:00
+date: 2025-03-30
 draft: false
 tags:
   - AWS
