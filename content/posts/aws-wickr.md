@@ -7,28 +7,43 @@ tags:
   - wickr
 ---
 
-https://wickrinc.github.io/wickrio-docs/
+## Introduction
 
-Amazon aquired Wickr the encypted messaging platform and has stripped out the free signal like version and is now selling encrypted messaging to AWS customers. Wickr is Amazon's most neglected service with the docs still living in a github page seperate from the rest of AWS docs four years after their merger. 
+[Wickr Documentation](https://wickrinc.github.io/wickrio-docs/)
 
-The service sucks and there are better services out there for messaging, unless you are a regulated business like a bank, casino or the miltary. Amazon likes to tout the military application of the aquistion the most. Probably an aqusition made after Amazon lost the JEDI cloud contract to Azure back in 2020 as a knee jerk reaction and then forgotten about and neglected.
+Amazon acquired Wickr, the encrypted messaging platform, and has stripped out the free Signal-like version, now selling encrypted messaging to AWS customers. Wickr is Amazon's most neglected service, with the docs still living on a GitHub page separate from the rest of AWS docs four years after their merger.
 
-Essesntialy the product comes in two variants wickr cloud and wickr enterprise. The cloud subscription is the one Amazon want's to push you towards the most. However you can also get a enterprise licence after negotiating a licence with AWS which allows you to download a docker image and run wickr locally.
+The service is subpar, and there are better alternatives for messaging unless you are a regulated business like a bank, casino, or the military. Amazon likes to tout the military application of the acquisition the most. This was probably a knee-jerk acquisition after Amazon lost the JEDI cloud contract to Azure back in 2020, and it has since been forgotten and neglected.
 
-Wickr has chatbots which use a seperate docker container image to run which is networked to the main wickr instance.
+## Wickr Variants
 
-How to set up a Docker container with bot runner image
-https://repost.aws/knowledge-center/wickr-ec2-webhook-bot
+Essentially, the product comes in two variants: **Wickr Cloud** and **Wickr Enterprise**. The cloud subscription is the one Amazon wants to push you toward the most. However, you can also get an enterprise license after negotiating with AWS, which allows you to download a Docker image and run Wickr locally.
 
-find all (public) AWS ECR images
-https://gallery.ecr.aws/search?searchTerm=wickr
+## Wickr Chatbots
 
-There is a template for Github Hubot integration if you want to write bots in coffescript. The example code is not avaliable on Github among all the other example scripts, however if you download the docker image and run the add command you can download the Hubot example bot that way.
+Wickr has chatbots that use a separate Docker container image to run, which is networked to the main Wickr instance.
 
-You can interface directly with wickr over HTTP REST API as well if you want to do your own bot from basics.
+### Setting Up a Docker Container with Bot Runner
 
-The best way of making a wickr bot is using node.js and using this example code as a starting point. 
+Follow this guide to set up a Docker container with the bot runner image:  
+[How to set up a Docker container with bot runner image](https://repost.aws/knowledge-center/wickr-ec2-webhook-bot)
 
-https://github.com/WickrInc/wickrio-example-app/
+### Finding AWS ECR Images
 
-Then edit example-app.js to add your own custom commands/integrations from there.
+You can find all public AWS ECR images here:  
+[Public AWS ECR Images](https://gallery.ecr.aws/search?searchTerm=wickr)
+
+## Hubot Integration
+
+There is a template for GitHub Hubot integration if you want to write bots in CoffeeScript. The example code is not available on GitHub among all the other example scripts. However, if you download the Docker image and run the `add` command, you can download the Hubot example bot that way.
+
+## REST API Integration
+
+You can interface directly with Wickr over the HTTP REST API if you want to build your bot from scratch.
+
+## Best Way to Build a Wickr Bot
+
+The best way to make a Wickr bot is by using Node.js. Start with this example code:  
+[Wickr Example App](https://github.com/WickrInc/wickrio-example-app/)
+
+Then edit `example-app.js` to add your own custom commands and integrations.
