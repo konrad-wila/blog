@@ -1,6 +1,6 @@
 languageCode: "en"
 baseUrl: "https://blog.elijahlopez.ca/"
-title: "ELL Blog"
+title: "Konrad Blog"
 theme: "anubis"
 paginate: 50
 disqusShortname: ""
@@ -74,15 +74,7 @@ params:
   - id: website
     url: https://elijahlopez.ca
   - id: github
-    name: elibroftw
-  - id: twitter
-    name: elibroftw
-  - id: youtube
-    name: elibroftw
-  - id: email
-    name: elijahllopezz@gmail.com
-  - id: instagram
-    name: elijahllopezz
+    name: konrad-wila
 
 staticDir:
   - static
