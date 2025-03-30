@@ -1,11 +1,11 @@
 ---
- title: "How to get started with AWS Wickr"
- date: 2025-03-30T19:24:13-04:00
- draft: false
- tags:
-   - AWS
-   - wickr
- ---
+title: "How to get started with AWS Wickr"
+date: 2025-03-30T19:24:13-04:00
+draft: false
+tags:
+  - AWS
+  - wickr
+---
 
 https://wickrinc.github.io/wickrio-docs/
 
